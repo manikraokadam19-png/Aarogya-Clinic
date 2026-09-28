@@ -1,0 +1,6 @@
+{
+  "name": "Aarogya Clinic & Doctor Appointments",
+  "description": "Production-ready Indian clinic and doctor appointment management platform with +91 verification, IST scheduling, WhatsApp notifications, and Indian healthcare workflows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

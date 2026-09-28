@@ -1,0 +1,825 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_01",
+      "fullName": "Dr. Suresh Kulkarni (Medical Director / Admin)",
+      "email": "admin@aarogyaclinic.in",
+      "phone": "+919876543210",
+      "role": "admin",
+      "isVerified": true,
+      "avatarUrl": "/src/assets/images/doctor_rahul_sharma_1790564915836.jpg",
+      "passwordHash": "a1717d223f507f6fd3d061f72a570eeb:b0f49d3ef0d77ee49e469c95849e3dabec092f770df4913777e3c32a8e994aed2c077aef2408429989f2e2ae3d6a459d4c9d020ffb9848dc794ba48945f7d4a4",
+      "createdAt": "2026-09-28T03:17:08.836Z",
+      "updatedAt": "2026-09-28T03:17:08.837Z"
+    },
+    {
+      "id": "usr_pat_01",
+      "fullName": "Rajesh Ramanathan",
+      "email": "rajesh.raman@gmail.com",
+      "phone": "+919822012345",
+      "role": "patient",
+      "isVerified": true,
+      "passwordHash": "aab5f6191c38bd3258cc60c39a317dce:ba08ba23b6e40e09bfc4653267b8d8f71708ebe55130887975ea4a644b23eaca7d76042ece420cb3d78edf2b0565c5523d7a378cd04e0ad66d415e5d441508a4",
+      "createdAt": "2026-08-29T03:17:08.844Z",
+      "updatedAt": "2026-09-28T03:17:08.844Z"
+    },
+    {
+      "id": "usr_pat_02",
+      "fullName": "Sunita Mehra",
+      "email": "sunita.mehra@rediffmail.com",
+      "phone": "+919890123456",
+      "role": "patient",
+      "isVerified": true,
+      "passwordHash": "4f7bda662f17622537d9b82f02a7f70d:a98dba1cd72c9e625f829d35b2e0c115c3cc4c2e267631e297d03b11275cf565d878dcbeec91fbbebf6e45f7662e22632ff96f24b491168da41a65740d50a1d6",
+      "createdAt": "2026-09-13T03:17:08.851Z",
+      "updatedAt": "2026-09-28T03:17:08.851Z"
+    }
+  ],
+  "patientProfiles": [
+    {
+      "id": "prof_01",
+      "userId": "usr_pat_01",
+      "dateOfBirth": "1985-06-14",
+      "gender": "Male",
+      "bloodGroup": "B+",
+      "allergies": "Penicillin, Dust mite",
+      "chronicConditions": "Mild Hypertension",
+      "currentMedications": "Telmisartan 40mg once daily",
+      "pastMedicalHistory": "Appendectomy in 2018",
+      "addressFlat": "Flat 402, B-Wing",
+      "addressStreet": "Mayur Residency, DP Road",
+      "addressArea": "Kothrud",
+      "addressLandmark": "Near City Pride Theatre",
+      "city": "Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "pincode": "411038",
+      "emergencyContactName": "Kavita Ramanathan (Wife)",
+      "emergencyContactPhone": "+919822099999"
+    },
+    {
+      "id": "prof_02",
+      "userId": "usr_pat_02",
+      "dateOfBirth": "1992-11-20",
+      "gender": "Female",
+      "bloodGroup": "O+",
+      "allergies": "None known",
+      "chronicConditions": "None",
+      "currentMedications": "Multivitamins",
+      "pastMedicalHistory": "None",
+      "addressFlat": "House 12, Gulmohar Enclave",
+      "addressStreet": "MG Road, Camp",
+      "addressArea": "Camp Area",
+      "addressLandmark": "Opposite Aurora Towers",
+      "city": "Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "pincode": "411001",
+      "emergencyContactName": "Vikram Mehra (Brother)",
+      "emergencyContactPhone": "+919890988888"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "doc_01",
+      "fullName": "Dr. Rahul Sharma",
+      "qualification": "MBBS, MD (General Medicine)",
+      "specialization": "General Physician & Diabetologist",
+      "experienceYears": 14,
+      "councilRegNumber": "MCI-2010-44912",
+      "languages": [
+        "English",
+        "Hindi",
+        "Marathi"
+      ],
+      "about": "Senior physician with over 14 years of clinical experience in treating acute viral illnesses, lifestyle disorders, metabolic management, diabetes care, and preventative medicine.",
+      "expertise": [
+        "Diabetes Mellitus",
+        "Hypertension Management",
+        "Infectious Diseases",
+        "Geriatric Health",
+        "Preventive Health Checks"
+      ],
+      "consultationFee": 500,
+      "avatarUrl": "/src/assets/images/doctor_rahul_sharma_1790564915836.jpg",
+      "clinicRoom": "OPD Chamber 101",
+      "isActive": true,
+      "schedule": [
+        {
+          "dayOfWeek": "Monday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Tuesday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Wednesday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Thursday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Friday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Saturday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "17:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Sunday",
+          "isWorking": false,
+          "startTime": "09:00",
+          "endTime": "13:00",
+          "slotDurationMinutes": 30
+        }
+      ]
+    },
+    {
+      "id": "doc_02",
+      "fullName": "Dr. Priya Patel",
+      "qualification": "MBBS, MD (Medicine), DM (Cardiology)",
+      "specialization": "Interventional Cardiologist",
+      "experienceYears": 12,
+      "councilRegNumber": "MMC-2012-78231",
+      "languages": [
+        "English",
+        "Hindi",
+        "Gujarati",
+        "Marathi"
+      ],
+      "about": "Renowned Cardiologist specializing in preventive heart health, coronary artery disease management, lipidology, hypertension, and post-angioplasty rehabilitative care.",
+      "expertise": [
+        "Heart Disease Prevention",
+        "ECG & Echocardiography",
+        "Lipid Disorders",
+        "Chest Pain Evaluation",
+        "Arrhythmia Management"
+      ],
+      "consultationFee": 800,
+      "avatarUrl": "/src/assets/images/doctor_priya_patel_1790564930553.jpg",
+      "clinicRoom": "Cardio Suite 102",
+      "isActive": true,
+      "schedule": [
+        {
+          "dayOfWeek": "Monday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Tuesday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Wednesday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Thursday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Friday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Saturday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "17:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Sunday",
+          "isWorking": false,
+          "startTime": "09:00",
+          "endTime": "13:00",
+          "slotDurationMinutes": 30
+        }
+      ]
+    },
+    {
+      "id": "doc_03",
+      "fullName": "Dr. Ananya Deshmukh",
+      "qualification": "MBBS, DCH, DNB (Pediatrics)",
+      "specialization": "Pediatrician & Neonatologist",
+      "experienceYears": 9,
+      "councilRegNumber": "MMC-2015-32114",
+      "languages": [
+        "English",
+        "Hindi",
+        "Marathi"
+      ],
+      "about": "Compassionate child specialist devoted to newborn care, growth and developmental milestones, childhood immunization, and pediatric respiratory conditions.",
+      "expertise": [
+        "Childhood Vaccination",
+        "Newborn & Infant Care",
+        "Pediatric Asthma",
+        "Growth & Nutrition Assessment",
+        "Childhood Infections"
+      ],
+      "consultationFee": 600,
+      "avatarUrl": "/src/assets/images/doctor_ananya_deshmukh_1790564942351.jpg",
+      "clinicRoom": "Pediatrics Room 103",
+      "isActive": true,
+      "schedule": [
+        {
+          "dayOfWeek": "Monday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Tuesday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Wednesday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Thursday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Friday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Saturday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "17:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Sunday",
+          "isWorking": false,
+          "startTime": "09:00",
+          "endTime": "13:00",
+          "slotDurationMinutes": 30
+        }
+      ]
+    },
+    {
+      "id": "doc_04",
+      "fullName": "Dr. Vikramaditya Rao",
+      "qualification": "MBBS, MS (Orthopedics), MCh (Ortho)",
+      "specialization": "Orthopedic Surgeon & Joint Specialist",
+      "experienceYears": 16,
+      "councilRegNumber": "KMC-2008-19823",
+      "languages": [
+        "English",
+        "Hindi",
+        "Kannada",
+        "Telugu"
+      ],
+      "about": "Expert orthopedic surgeon specializing in knee and hip joint pain, arthritis management, sports injuries, spine ergonomics, and fracture treatments.",
+      "expertise": [
+        "Osteoarthritis",
+        "Sports Injury Rehabilitation",
+        "Knee & Shoulder Pain",
+        "Spine & Backache",
+        "Bone Density & Osteoporosis"
+      ],
+      "consultationFee": 700,
+      "avatarUrl": "/src/assets/images/doctor_rahul_sharma_1790564915836.jpg",
+      "clinicRoom": "Orthopedics Suite 104",
+      "isActive": true,
+      "schedule": [
+        {
+          "dayOfWeek": "Monday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Tuesday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Wednesday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Thursday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Friday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Saturday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "17:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Sunday",
+          "isWorking": false,
+          "startTime": "09:00",
+          "endTime": "13:00",
+          "slotDurationMinutes": 30
+        }
+      ]
+    },
+    {
+      "id": "doc_05",
+      "fullName": "Dr. Meenakshi Sundaram",
+      "qualification": "MBBS, MS (OBGYN), DGO, FMAS",
+      "specialization": "Obstetrician & Gynecologist",
+      "experienceYears": 11,
+      "councilRegNumber": "TNMC-2013-55612",
+      "languages": [
+        "English",
+        "Hindi",
+        "Tamil",
+        "Marathi"
+      ],
+      "about": "Dedicated specialist focusing on women comprehensive health, antenatal pregnancy care, PCOD/PCOS lifestyle treatment, and fertility guidance.",
+      "expertise": [
+        "Antenatal Care",
+        "PCOS & PCOD Management",
+        "Menstrual Health",
+        "High Risk Pregnancy Guidance",
+        "Menopause Support"
+      ],
+      "consultationFee": 650,
+      "avatarUrl": "/src/assets/images/doctor_priya_patel_1790564930553.jpg",
+      "clinicRoom": "Gynaecology Suite 105",
+      "isActive": true,
+      "schedule": [
+        {
+          "dayOfWeek": "Monday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Tuesday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Wednesday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Thursday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Friday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Saturday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "17:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Sunday",
+          "isWorking": false,
+          "startTime": "09:00",
+          "endTime": "13:00",
+          "slotDurationMinutes": 30
+        }
+      ]
+    },
+    {
+      "id": "doc_06",
+      "fullName": "Dr. Sameer Khan",
+      "qualification": "MBBS, MD (Dermatology, Venereology & Leprosy)",
+      "specialization": "Consultant Dermatologist & Trichologist",
+      "experienceYears": 8,
+      "councilRegNumber": "DMC-2016-89021",
+      "languages": [
+        "English",
+        "Hindi",
+        "Urdu"
+      ],
+      "about": "Board-certified dermatologist focusing on clinical dermatology, chronic eczema, acne, psoriasis, hair fall evaluation, and laser medical procedures.",
+      "expertise": [
+        "Acne & Scarring",
+        "Hair Fall & PRP",
+        "Eczema & Psoriasis",
+        "Skin Allergies",
+        "Pigmentation Management"
+      ],
+      "consultationFee": 600,
+      "avatarUrl": "/src/assets/images/doctor_ananya_deshmukh_1790564942351.jpg",
+      "clinicRoom": "Derma Lounge 106",
+      "isActive": true,
+      "schedule": [
+        {
+          "dayOfWeek": "Monday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Tuesday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Wednesday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Thursday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Friday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Saturday",
+          "isWorking": true,
+          "startTime": "09:00",
+          "endTime": "17:00",
+          "breakStartTime": "13:00",
+          "breakEndTime": "14:00",
+          "slotDurationMinutes": 30
+        },
+        {
+          "dayOfWeek": "Sunday",
+          "isWorking": false,
+          "startTime": "09:00",
+          "endTime": "13:00",
+          "slotDurationMinutes": 30
+        }
+      ]
+    }
+  ],
+  "appointments": [
+    {
+      "id": "apt_01",
+      "appointmentNumber": "CLN-20260928-001",
+      "patientId": "usr_pat_01",
+      "patientName": "Rajesh Ramanathan",
+      "patientPhone": "+919822012345",
+      "patientEmail": "rajesh.raman@gmail.com",
+      "patientGender": "Male",
+      "patientDob": "1985-06-14",
+      "doctorId": "doc_01",
+      "doctorName": "Dr. Rahul Sharma",
+      "doctorSpecialization": "General Physician & Diabetologist",
+      "doctorAvatarUrl": "/src/assets/images/doctor_rahul_sharma_1790564915836.jpg",
+      "appointmentDate": "2026-09-28",
+      "appointmentTime": "10:30 AM",
+      "consultationType": "in-clinic",
+      "reason": "Routine quarterly diabetes checkup and blood pressure review",
+      "symptoms": "Occasional mild dizziness in the morning",
+      "status": "confirmed",
+      "consultationFee": 500,
+      "paymentStatus": "pay_at_clinic",
+      "createdAt": "2026-09-28T03:17:08.900Z",
+      "updatedAt": "2026-09-28T03:17:08.900Z"
+    },
+    {
+      "id": "apt_02",
+      "appointmentNumber": "CLN-20260928-002",
+      "patientId": "usr_pat_02",
+      "patientName": "Sunita Mehra",
+      "patientPhone": "+919890123456",
+      "patientEmail": "sunita.mehra@rediffmail.com",
+      "patientGender": "Female",
+      "patientDob": "1992-11-20",
+      "doctorId": "doc_02",
+      "doctorName": "Dr. Priya Patel",
+      "doctorSpecialization": "Interventional Cardiologist",
+      "doctorAvatarUrl": "/src/assets/images/doctor_priya_patel_1790564930553.jpg",
+      "appointmentDate": "2026-09-28",
+      "appointmentTime": "02:30 PM",
+      "consultationType": "online",
+      "onlineMeetingUrl": "https://meet.google.com/aar-ogya-doc",
+      "reason": "Palpitations after intense exercise and ECG review",
+      "symptoms": "Rapid heartbeat after stair climbing",
+      "status": "confirmed",
+      "consultationFee": 800,
+      "paymentStatus": "paid",
+      "paymentMethod": "UPI (aarogyaclinic@icici)",
+      "createdAt": "2026-09-28T03:17:08.900Z",
+      "updatedAt": "2026-09-28T03:17:08.900Z"
+    },
+    {
+      "id": "apt_1790565449336",
+      "appointmentNumber": "CLN-20260929-001",
+      "patientId": "guest_1790565449336",
+      "patientName": "Kavita Deshmukh",
+      "patientPhone": "+919876543210",
+      "patientEmail": "",
+      "patientGender": "Prefer not to say",
+      "patientDob": "",
+      "doctorId": "doc_01",
+      "doctorName": "Dr. Rahul Sharma",
+      "doctorSpecialization": "General Physician & Diabetologist",
+      "doctorAvatarUrl": "/src/assets/images/doctor_rahul_sharma_1790564915836.jpg",
+      "appointmentDate": "2026-09-29",
+      "appointmentTime": "11:00 AM",
+      "consultationType": "in-clinic",
+      "reason": "General health assessment",
+      "symptoms": "",
+      "status": "confirmed",
+      "consultationFee": 500,
+      "paymentStatus": "pay_at_clinic",
+      "paymentMethod": "Pay at Clinic Counter",
+      "createdAt": "2026-09-28T03:17:29.336Z",
+      "updatedAt": "2026-09-28T03:17:29.336Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "srv_01",
+      "name": "General Physician Consultation",
+      "department": "General Medicine",
+      "description": "Comprehensive physical examination, diagnosis of acute fevers, cough, fatigue, and primary healthcare guidance.",
+      "fee": 500,
+      "durationMinutes": 20,
+      "isActive": true
+    },
+    {
+      "id": "srv_02",
+      "name": "Cardiology Consultation & 12-Lead ECG",
+      "department": "Cardiology",
+      "description": "Specialist heart evaluation with high-definition digital 12-lead ECG, blood pressure profiling, and cardiovascular risk assessment.",
+      "fee": 800,
+      "durationMinutes": 30,
+      "isActive": true
+    },
+    {
+      "id": "srv_03",
+      "name": "Pediatric Health & Immunization",
+      "department": "Pediatrics",
+      "description": "Full pediatric developmental assessment, IAP-schedule vaccination, growth tracking, and infant nutrition counseling.",
+      "fee": 600,
+      "durationMinutes": 20,
+      "isActive": true
+    },
+    {
+      "id": "srv_04",
+      "name": "Orthopedic Joint & Spine Assessment",
+      "department": "Orthopedics",
+      "description": "Evaluation of joint mobility, chronic arthritis, sciatica, posture evaluation, and physical therapy planning.",
+      "fee": 700,
+      "durationMinutes": 25,
+      "isActive": true
+    },
+    {
+      "id": "srv_05",
+      "name": "Gynecology & Antenatal Wellness",
+      "department": "Gynecology",
+      "description": "Routine women wellness check, fertility assessment, pregnancy trimester review, and hormonal balance guidance.",
+      "fee": 650,
+      "durationMinutes": 25,
+      "isActive": true
+    },
+    {
+      "id": "srv_06",
+      "name": "Dermatology & Scalp Examination",
+      "department": "Dermatology",
+      "description": "Digital dermoscopy for skin conditions, mole checks, persistent rash analysis, and targeted treatment plans.",
+      "fee": 600,
+      "durationMinutes": 20,
+      "isActive": true
+    },
+    {
+      "id": "srv_07",
+      "name": "Executive Master Health Checkup",
+      "department": "Diagnostics",
+      "description": "Complete 68-parameter panel: CBC, Lipid Profile, Liver Function, Kidney Function, HbA1c, Thyroid, Urine Routine & Doctor Review.",
+      "fee": 1999,
+      "durationMinutes": 45,
+      "isActive": true
+    },
+    {
+      "id": "srv_08",
+      "name": "Digital X-Ray & Bone Health",
+      "department": "Radiology",
+      "description": "High-resolution digital radiography for chest, limbs, and spine with rapid radiologist reporting within 30 minutes.",
+      "fee": 850,
+      "durationMinutes": 15,
+      "isActive": true
+    }
+  ],
+  "whatsappLogs": [
+    {
+      "id": "wa_1790565449336",
+      "appointmentId": "apt_1790565449336",
+      "recipientPhone": "+919876543210",
+      "recipientName": "Kavita Deshmukh",
+      "templateType": "booking_confirmation",
+      "messageText": "Hello Kavita Deshmukh,\n\nYour appointment has been confirmed.\n\nClinic: Aarogya Multi-Speciality Clinic & Diagnostic Centre\n\nDoctor: Dr. Dr. Rahul Sharma\n\nAppointment ID: CLN-20260929-001\n\nDate: 29/09/2026\n\nTime: 11:00 AM\n\nConsultation: In-Clinic Consultation\n\nClinic Address:\nShop 104-106, 1st Floor, Shivaji Commercial Complex, Fergusson College Road, Shivajinagar, Deccan Gymkhana, Pune, Maharashtra - 411004\n\nContact:\n+91 9876543210\n\nThank you.",
+      "sentAt": "2026-09-28T03:17:29.336Z",
+      "status": "delivered",
+      "provider": "WhatsApp Business API"
+    },
+    {
+      "id": "wa_01",
+      "appointmentId": "apt_01",
+      "recipientPhone": "+919822012345",
+      "recipientName": "Rajesh Ramanathan",
+      "templateType": "booking_confirmation",
+      "messageText": "Hello Rajesh Ramanathan,\n\nYour appointment has been confirmed.\n\nClinic: Aarogya Multi-Speciality Clinic & Diagnostic Centre\n\nDoctor: Dr. Dr. Rahul Sharma\n\nAppointment ID: CLN-20260928-001\n\nDate: 28/09/2026\n\nTime: 10:30 AM\n\nConsultation: In-Clinic Consultation\n\nClinic Address:\nShop 104-106, 1st Floor, Shivaji Commercial Complex, Fergusson College Road, Shivajinagar, Deccan Gymkhana, Pune, Maharashtra - 411004\n\nContact:\n+91 9876543210\n\nThank you.",
+      "sentAt": "2026-09-28T03:17:08.901Z",
+      "status": "delivered",
+      "provider": "WhatsApp Business API"
+    },
+    {
+      "id": "wa_02",
+      "appointmentId": "apt_02",
+      "recipientPhone": "+919890123456",
+      "recipientName": "Sunita Mehra",
+      "templateType": "booking_confirmation",
+      "messageText": "Hello Sunita Mehra,\n\nYour appointment has been confirmed.\n\nClinic: Aarogya Multi-Speciality Clinic & Diagnostic Centre\n\nDoctor: Dr. Dr. Priya Patel\n\nAppointment ID: CLN-20260928-002\n\nDate: 28/09/2026\n\nTime: 02:30 PM\n\nConsultation: Online Consultation\n\nClinic Address:\nShop 104-106, 1st Floor, Shivaji Commercial Complex, Fergusson College Road, Shivajinagar, Deccan Gymkhana, Pune, Maharashtra - 411004\n\nContact:\n+91 9876543210\n\nThank you.",
+      "sentAt": "2026-09-28T03:17:08.902Z",
+      "status": "delivered",
+      "provider": "WhatsApp Business API"
+    }
+  ],
+  "otpStore": {},
+  "clinicSettings": {
+    "name": "Aarogya Multi-Speciality Clinic & Diagnostic Centre",
+    "tagline": "Compassionate Care, Advanced Medical Excellence",
+    "registrationNumber": "MAH-PUN-CLINIC-2018-8842",
+    "gstNumber": "27AABCA1234D1ZM",
+    "phone": "+91 9876543210",
+    "emergencyHelpline": "+91 9876500000",
+    "email": "appointments@aarogyaclinic.in",
+    "whatsappNumber": "+91 9876543210",
+    "addressFlat": "Shop 104-106, 1st Floor",
+    "addressBuilding": "Shivaji Commercial Complex",
+    "addressStreet": "Fergusson College Road, Shivajinagar",
+    "addressArea": "Deccan Gymkhana",
+    "city": "Pune",
+    "district": "Pune",
+    "state": "Maharashtra",
+    "pincode": "411004",
+    "openingHours": "Mon - Sat: 08:30 AM - 08:30 PM, Sun: 09:00 AM - 01:00 PM",
+    "slotDurationMinutes": 30,
+    "advanceBookingDays": 30,
+    "onlineConsultationEnabled": true,
+    "upiId": "aarogyaclinic@icici"
+  }
+}
